@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+html{
+  font-size:16px;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.Home1 h1{
+  text-align:center;
+  color: Navy;
+  padding-top: 0.75rem;
+  text-transform: uppercase;
+  font-size: 4.5rem;
+  background-color: Teal;
+  font-family: 'Georgia', serif;  
+}
+
+.Home1 ul{
+  text-align: center;
+  background-color: Teal;
+  padding-bottom: 0.31rem;
+}
+
+.Home1 li{
+  display: inline-Block;
+  width: 24%;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  margin:0;
+  
+  text-transform: uppercase;
+  font-weight: 100;
+  font-family: 'Georgia', serif;
+  font-size: 20px;
+  text-align:center;
+  
+  border: 3px solid GhostWhite;
+  border-radius: 0.625rem;	 
+}
+
+.Home1 li:hover{
+  background-color: CornFlowerBlue;
+  color: GhostWhite;
+}
+
+
+.About1{
+  background-image: url("https://ak2.picdn.net/shutterstock/videos/1339435/thumb/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 30rem;
+  
+}
+
+.screen{
+  background-color: lightGrey;
+  opacity: 0.8;
+
+
+  width: 70%;
+  height: 20rem;
+
+  position: relative;
+  top: 15%;
+  left: 15%;
+
+  padding-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.screen h2{
+  position:relative;
+  left: 15%;
+  top: 5%;
+  padding-bottom:3%;
+  text-align: justify;
+  width: 60%;
+  font-family: 'Georgia', serif;
+  color: dodgerBlue;
+}
+
+#idea{
+  float: right;
+  position:relative;
+  top: 1rem;
+  right: 13.5rem;
+  opacity: 0;
+}
+
+#laptop{
+  float: right;
+  position:relative;
+  top: 8rem;
+  right: -6rem;
+}
+
+#usb{
+  position: relative;  
+  float: left;
+  left: -5rem;
+  top: 2rem;
+  margin-right: -25rem;
+}
+
+.footer{
+  background-color: Teal;
+  width:100%;
+  height: 2rem;
+  text-align: center;
+  font-size: 1rem;
+  padding-top: 0.5rem;
+}

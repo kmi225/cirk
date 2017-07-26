@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+html{
+  font-size:16px;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.Home1 h1{
+  text-align:center;
+  color: Navy;
+  padding-top: 0.75rem;
+  text-transform: uppercase;
+  font-size: 4.5rem;
+  background-color: Teal;
+  font-family: 'Georgia', serif;  
+}
+
+.Home1 ul{
+  text-align: center;
+  background-color: Teal;
+  padding-bottom: 0.31rem;
+}
+
+.Home1 li{
+  display: inline-Block;
+  width: 24%;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  margin:0;
+  
+  text-transform: uppercase;
+  font-weight: 100;
+  font-family: 'Georgia', serif;
+  font-size: 20px;
+  text-align:center;
+  
+  border: 3px solid GhostWhite;
+  border-radius: 0.625rem;	 
+}
+
+.Home1 li:hover{
+  background-color: CornFlowerBlue;
+  color: GhostWhite;
+}
+
+
+.Services1{
+  background-image: url(../img/wall.jpg);
+  width: 100%;
+  height: 50rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.screen2{
+  background-color: lightGrey;
+  opacity: 0.8;
+
+  width: 40%;
+  left: 5%;
+  right: 5%;
+
+  float:right;
+  margin-right: 5%;  
+  
+  margin-top: -9.25rem;
+  margin-bottom: 10rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  
+}
+
+.screen2 h2{
+  position:relative;
+  left: 20%;
+  top: 5%;
+
+  text-align: center;
+  width: 60%;
+  font-family: 'Georgia', serif;
+  color: dodgerBlue;
+  
+}
+
+.tall{
+  float: right;
+  margin-right: -33%;
+  height: 25rem;
+  margin-top: 7rem;
+}
+
+
+.screen{
+  background-color: lightGrey;
+  opacity: 0.8;
+
+  width: 40%;
+  left: 5%;
+  right: 5%;
+
+
+  position: relative;
+  top: 5%;
+  left: 5%;
+
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  
+}
+
+.screen h2{
+  position:relative;
+  left: 20%;
+  top: 5%;
+  padding-bottom:3%;
+  text-align: center;
+  width: 60%;
+  font-family: 'Georgia', serif;
+  color: dodgerBlue;
+  
+}
+
+.footer{
+  background-color: Teal;
+  width:100%;
+  height: 2rem;
+  text-align: center;
+  font-size: 1rem;
+  padding-top: 0.5rem;
+}
